@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    font-size: 20px;
+    
+}
+
+h1 {
+    font-size: 2.85em;
+    font-weight: 800;
+    border: 2px solid #000;
+    /* padding: 0 1 em; */
+    /* padding 1em 0 2em 1em; */
+    /* padding 1 em 2 em; */ 
+    /* margin: 2em; */ 
+    /* margin: 0 2 em; */
+    /* margin: 1em 2em 3 em 4 em; */
+}
+
+h2{
+    font-size: 1.85em;
+    font-weight: 500;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    /* padding: 0 1 em; */
+    /* padding 1em 0 2em 1em; */
+    /* padding 1 em 2 em; */ 
+    /* margin: 2em; */ 
+    /* margin: 0 2 em; */
+    /* margin: 1em 2em 3 em 4 em; */
+}
+
+.labrador-retriever {
+    color: #B027F5;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.byline {
+    color: #27D3F5;
+    
+}
+.overview {
+    color: #276CF5; 
+}
+.history {
+    color: #276CF5;
+}
+.characteristics {
+    color: #276CF5;
+}
+.roles {
+    color: #276CF5;
+}
