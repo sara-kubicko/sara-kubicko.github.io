@@ -1,0 +1,12 @@
+h1 {
+    color: red;
+}
+
+.bi {
+    color: black;
+    font-size: 1.25rem;
+}
+
+.links a{
+    display: block;
+}
