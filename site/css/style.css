@@ -1,37 +1,105 @@
 body {
     background-color: rgb(247, 205, 223);
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    color: rgb(103, 156, 92);
+    font-size: 18px;
+    font-weight: 800;
+}
+
+a {
+    color: rgb(244, 177, 110);
+    font-size: 4rem;
+    text-decoration: none;
+    padding: 4rem;
+    margin: 9rem;
 }
 
 h1 {
     color: rgb(255, 255, 255);
-    font-size: 20rem;
-    font-family: 'Alumni Sans Pinstripe';
+    font-size: 15em;
     font-weight: 500;
-    margin: 1rem 0;
+    text-align: center;
+    margin: .5em 0 0 0;
 }
 
-.nav {
+header {
+    margin: 3em 0 1em 0;
+}
+
+nav a{
+    text-align: center;
     color: rgb(213, 107, 167);
-    font-family: 'Alumni Sans Pinstripe';
-    font-size: 4rem;
+    font-size: 3.5em;
     font-weight: 500;
-     margin: 2%;
-    padding: 40%;
+    margin: 2em 0;
+    padding: 0 2% 0 0;
 }
 
-.bi {
-    font-size: 4em;
-    padding-right: 2em;
+.home .row>div {
+    margin: 0;
+    padding: 0;
+}
+
+.white-bg {
+    background-color: white;
+    height: 102vh;
+    padding: 15%;
+}
+
+.about-txt p {
+    font-size: 1.5em;
+}
+
+.about-txt h3 {
+    font-size: 3em;
+    padding: 1em 0;
 }
 
 h2 {
-    color: rgb(202, 244, 207);
-    font-size: 10rem;
-    font-family: 'Alumni Sans Pinstripe';
+    color: rgb(213, 107, 167);
+    font-size: 5em;
     font-weight: 800;
     margin: 2rem 0;
     max-width: 100%;
     height: auto;
+    text-align: center;
+}
+
+.white-bg a {
+    font-size: 1em;
+    padding: 0;
+    color: rgb(103, 156, 92);
+    text-align: left;
+}
+
+
+
+
+@media (max-width: 1200px){
+    nav{
+        margin: 0;
+        padding: 0;
+    }
+
+    h1 {
+        font-size: 12em;
+    }
+}
+
+@media (max-width:550px){
+    nav a {
+        font-size: 2em;
+    }
+
+    h1 {
+        font-size: 7em;
+    }
+}
+
+
+.bi {
+    font-size: 4em;
+    padding-right: 2em;
 }
 
 
@@ -39,88 +107,10 @@ h2 {
 h3 {
     color: rgb(168, 220, 174);
     font-size: 10rem;
-    font-family: 'Alumni Sans Pinstripe';
     font-weight: 500;
     margin: 2rem 0;
     max-width: 100%;
     height: auto;
-}
-
-h4 {
-    color: rgb(168, 220, 174);
-    font-size: 10rem;
-    font-family: 'Alumni Sans Pinstripe';
-    font-weight: 500;
-    margin: 2rem 0;
-    max-width: 100%;
-    height: auto;
-}
-
-h5 {
-    color: rgb(119, 154, 117);
-    font-size: 15rem;
-    font-family: 'Alumni Sans Pinstripe';
-    font-weight: 500;
-    margin: 2rem 0;
-    max-width: 100%;
-    height: auto;
-}
-
-h6 {
-    color: rgb(255, 255, 255);
-    font-size: 15rem;
-    font-family: 'Alumni Sans Pinstripe';
-    font-weight: 500;
-    margin: 2rem 0;
-    max-width: 100%;
-    height: auto;
-}
-
-h7, h8 {
-    color: rgb(253, 253, 253);
-    font-size: 10rem;
-    font-family: 'Alumni Sans Pinstripe';
-    font-weight: 500;
-    margin: 2rem 0;
-    max-width: 100%;
-    height: auto;
-}
-
-h9 {
-    color: rgb(253, 253, 253);
-    font-size: 4rem;
-    font-family: 'Alumni Sans Pinstripe';
-    font-weight: 500;
-    margin: 2rem 0;
-    max-width: 100%;
-    height: auto;
-}
-
-p {
-    color: rgb(103, 156, 92);
-    font-size: 4rem;
-    font-family: 'Alumni Sans Pinstripe', sans-serif;
-    font-weight: 800;
-    margin: 2rem 0;
-    max-width: 100%;
-    height: auto;
-
-}
-
-clips {
-    color: #e1aaaa;
-    font-size: 4rem;
-    font-family: 'Alumni Sans Pinstripe', sans-serif;
-    font-weight: 500;
-    margin: 2rem 0;
-    max-width: 100%;
-    height: auto;
-
-}
-
-.white-bg {
-    background-color: white;
-    height: 100vh;
 }
 
 img.resume {
@@ -135,11 +125,3 @@ img.resume {
     margin: 0 auto;
 }
 
-a {
-    color: rgb(244, 177, 110);
-    font-family: 'Alumni Sans Pinstripe';
-    font-size: 4rem;
-    text-decoration: none;
-    padding: 4rem;
-    margin: 9rem;
-}
