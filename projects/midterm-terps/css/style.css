@@ -1,0 +1,123 @@
+.overline {
+    font-family: "Work Sans", sans-serif;
+    color: #C5271D;
+    font-weight: 800;
+}
+
+.underline {
+    border-bottom: 4px solid #C5271D
+}
+
+a {
+    color:#C5271D
+}
+
+h1 {
+    font-family: "Oswald", sans-serif;
+    font-style: italic;
+    font-size: 4em
+}
+
+h2,
+.underline p {
+    font-family: "Work Sans";
+    font-size: 1em;
+}
+
+h3 {
+    font-family: "Work Sans";
+}
+
+.header img,
+.sectionthree img,
+.sectionfour img,
+.sectionsix img,
+.timeline img {
+    max-width: 100%;
+    height: auto;
+
+}
+
+.lead,
+.section,
+.sectiontwo,
+.sectionthree,
+.sectionfour,
+.sectionfive,
+.sectionsix,
+.box,
+
+.foot {
+    width: 55%;
+    margin: 2em auto;
+    font-family: "Work Sans", sans-serif;
+}
+
+.sectiontwo,
+.sectionthree,
+.sectionfour,
+.sectionfive,
+.sectionsix,
+.timeline, {
+    margin: 2em 0;
+}
+
+
+.timeline,
+.foot {
+    padding: 3em 0 1em 0;
+}
+
+.box {
+    background-color: #f5f5f5;
+    padding: 0 1em 0 1em;
+}
+
+
+@media (max-width: 767px) {
+
+    .lead,
+    .section,
+    .sectiontwo,
+    .sectionthree,
+    .sectionfour,
+    .sectionfive,
+    .sectionsix,
+    .box,
+    .timeline,
+    .foot {
+        width: 95%;
+    }
+}
+
+.sectiontwo img,
+.sectionfive img,
+.timeline img {
+    max-width: 80%;
+}
+
+.sectionfive img,
+.sectionsix img {
+    padding: 1em 0 3em 0;
+}
+
+.timeline {
+    font-family: "Work Sans";
+    background-color: #C5271D;
+    color: #f5f5f5;
+    padding: 2em 1em; 
+}
+
+.timeline h3 {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.timeline img{
+    padding: 0.5em 0 0.5em 0;
+}
+
+.foot {
+    font-style: italic;
+    padding: 2em;
+}
